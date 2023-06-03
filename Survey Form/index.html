@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honray Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="title">Honray FreecodeCamp Form</h1>
+        <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+    </div>
+
+    <form >
+        <div id="survey-form">
+            <label>Name</label> <br><br>
+            <input type="name" id="name" required="required" placeholder="Enter your name" class="box"> <br><br>
+
+            <label>Email</label> <br><br>
+            <input type="email" id="email" required="required" placeholder="Enter your email" class="box"> <br><br>
+
+            <label>Age</label> <br><br>
+            <input type="number" id="number" required="required" min="15" max="75" placeholder="Age" class="box"> <br><br>
+
+            <label>Which option best describes your current role?</label><br><br>
+        
+            <div id="dropdown">
+                <select >
+                    <option name="Select current role">Select current role</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="Self Employed">Self Employed</option>
+                    <option value="FreeLancing">FreeLancing</option>
+                    <option value="Full Time Job">Full Time Job</option>
+                </select>
+            </div>
+        
+        <br>
+        <label id="title1">Which best interests you</label> <br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspFrontend Developer<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspBackend Developer<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspFullstack Developer<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMobile Developer<br> <br>
+
+        <br>
+
+        <label id="title2">Level of Proficiency? (Check all that best suits you)</label> <br>
+        <div id="content">
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspHTML</label> <br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspCSS</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspJavascript</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspReact.js</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspNode.js</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspPHP</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspJava</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspPython</label><br><br>
+        </div>
+
+        <label id="comment">Any comments or suggestions?</label> <br><br>
+        <textarea placeholder="Enter your comment here..."></textarea> <br>
+        
+        <button><h3>Submit</h3></button>
+    </div>
+    </form>
+</body>
+</html>
